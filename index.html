@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aryaman Velampalli</title>
+  <meta name="description" content="Aryaman Velampalli —  MSCS @ Columbia University" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="site-nav">
+  <a href="blog.html">Blog</a>
+</nav>
+<div class="container">
+
+  <!-- ── HEADER ───────────────────────────────── -->
+  <div class="header">
+    <div class="header-text">
+      <h1 class="name" style="text-align: center;">Aryaman Velampalli</h1>
+
+      <div style="max-width: 640px; margin: 0 auto;">
+        <p class="bio">
+          I am an MS Computer Science student on the ML track at
+          <a href="https://www.columbia.edu/">Columbia University</a>,
+          graduating December 2026. I do research in Professor
+          <a href="https://www.aqlab.io/">Mohammed AlQuraishi</a>'s
+          computational biology lab, where I work with
+          protein backbone diffusion models.
+        </p>
+
+        <p class="bio">
+          Previously, I spent two years as an ML Engineer at
+          <a href="https://www.avalara.com/">Avalara</a>, where I built
+          a conversational <a href="https://www.avalara.com/us/en/products/avalara-tax-research.html">Taxability Research Assistant</a> across 3M+ tax documents.
+          I completed my B.E. in Computer Science from
+          <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a>.
+        </p>
+
+        <p class="bio">
+          I've recently been fascinated by diffusion models, flow matching and
+          reinforcement learning and their application to problems
+          in biology.
+        </p>
+
+        <p class="contact-links">
+          <a href="mailto:akv2129@columbia.edu">Email</a> &nbsp;/&nbsp;
+          <a href="https://www.linkedin.com/in/aryaman-velampalli/">LinkedIn</a> &nbsp;/&nbsp;
+          <!-- <a href="data/cv.pdf">CV</a> &nbsp;/&nbsp; -->
+          <a href="https://github.com/fin1cky">GitHub</a>
+          <!-- <a href="https://x.com/Aryakris_20">X</a> -->
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── PROJECTS ──────────────────────────────── -->
+  <div style="max-width: 640px; margin: 0 auto;">
+    <h2 class="section-title">Projects</h2>
+
+    <ul class="pub-list">
+
+      <li class="pub">
+        <div class="pub-thumb">
+          <img
+            class="thumb-default"
+            src="images/baseline_ddpm.gif"
+            alt="Protein-inspired 3D Diffusion thumbnail"
+            onerror="this.style.display='none';"
+          />
+        </div>
+
+        <div class="pub-body">
+          <div class="pub-title">
+            <a href="https://github.com/fin1cky/Protein-inspired-3D-Diffusion">Protein-inspired 3D Diffusion</a>
+          </div>
+          <div class="pub-desc">
+            A generative model using diffusion transformers and reinforcement learning
+            to design 3D protein-like chain structures. Trains a transformer-based
+            DDPM/DDIM denoiser and fine-tunes it with DDPO policy gradients to optimize
+            structural properties such as beta-sheet alignment.
+          </div>
+          <div class="pub-links">
+            <a href="https://github.com/fin1cky/Protein-inspired-3D-Diffusion">code</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub-thumb">
+          <img
+            class="thumb-default"
+            src="images/spiral.gif"
+            alt="2D Diffusion thumbnail"
+            onerror="this.style.display='none';"
+          />
+        </div>
+
+        <div class="pub-body">
+          <div class="pub-title">
+            <a href="https://github.com/fin1cky/2D-Diffusion">2D Diffusion</a>
+          </div>
+          <div class="pub-desc">
+            An implementation of DDPM and DDIM on 2D toy datasets (circles, two-moons,
+            spirals) using an MLP denoiser with sinusoidal embeddings and cosine noise
+            scheduling. Built to develop intuition for the forward and reverse diffusion
+            process through clean visualizations.
+          </div>
+          <div class="pub-links">
+            <a href="https://github.com/fin1cky/2D-Diffusion">code</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ── FOOTER ────────────────────────────────── -->
+  <footer>
+    Design inspired by
+    <a href="https://jonbarron.info/">Jon Barron</a>
+    and
+    <a href="https://chloe-hsu.com/">Chloe Hsu</a>.
+    Last updated April 2026.
+  </footer>
+
+</div>
+
+</body>
+</html>
