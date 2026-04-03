@@ -85,6 +85,7 @@ h1.name {
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .bio {
@@ -291,6 +292,7 @@ footer a:hover {
 
   h1.name {
     font-size: 26px;
+    text-align: left;
   }
 
   h2.section-title {
@@ -299,8 +301,8 @@ footer a:hover {
 
   .header {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     padding: 16px 0 24px;
     gap: 16px;
   }
@@ -313,15 +315,17 @@ footer a:hover {
     line-height: 2.2;
   }
 
+  /* Keep two-column layout on mobile: thumb left, content right */
   .pub {
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    gap: 14px;
+    align-items: flex-start;
   }
 
   .pub-thumb {
-    width: 100%;
+    flex: 0 0 130px;
+    width: 130px;
     height: auto;
-    flex: none;
   }
 
   .news-list li {
