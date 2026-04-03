@@ -183,23 +183,8 @@ h2.section-title {
   width: 100%;
   height: auto;
   display: block;
-  transition: opacity 0.2s ease-in-out;
 }
 
-.pub-thumb .thumb-hover {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.pub-thumb:hover .thumb-hover {
-  opacity: 1;
-}
-
-.pub-thumb:hover .thumb-default {
-  opacity: 0;
-}
 
 .pub-body {
   flex: 1 1 auto;
